@@ -1,0 +1,23 @@
+module top_module (
+    input clk,
+    input d,
+    output q
+);
+ reg q_pos, q_neg, next_clk;
+    always@(posedge clk)
+        q_pos <= d;
+    
+    always@(negedge clk)
+        q_neg <= d;
+    
+    always@(*) begin    
+    if(clk==0)
+        next_clk <= 1;
+    else
+        next_clk <= 0;
+    end
+    
+    always@(*) 
+    q <= next_clk ? q_neg : q_pos;
+    
+endmodule 
