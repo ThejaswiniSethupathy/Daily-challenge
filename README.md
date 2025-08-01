@@ -12,3 +12,5 @@ Counter problem
 12-hour clock using counter
 
 100-bit left right rotator
+
+Arithmetic shift register
