@@ -4,4 +4,7 @@ Dual-edge triggered flip-flop
 
 Decade counter
 
+## Day 2
 Counter 1000
+
+Counter problem
