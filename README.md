@@ -10,3 +10,5 @@ Counter 1000
 Counter problem
 
 12-hour clock using counter
+
+100-bit left right rotator
