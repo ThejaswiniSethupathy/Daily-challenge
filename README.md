@@ -3,3 +3,5 @@
 Dual-edge triggered flip-flop
 
 Decade counter
+
+Counter 1000
