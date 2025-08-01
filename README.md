@@ -8,3 +8,5 @@ Decade counter
 Counter 1000
 
 Counter problem
+
+12-hour clock using counter
